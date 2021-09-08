@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+      <title>Pajaro Canvas</title>
+</head>
+<body>
+     <canvas id="pajaro" width="700px" height="511px" style="border: 2px solid gray;"></canvas>
+
+     <script>
+         window.addEventListener('load', () => {
+         let canvasPajaro = document.getElementById('pajaro');
+         let ctx = canvasPajaro.getContext('2d');
+
+         ctx.beginPath(); 
+         ctx.strokeStyle = 'orange';
+         ctx.moveTo(286,169);
+         ctx.lineTo(309,160);
+         ctx.stroke();
+         
+         ctx.beginPath(); 
+         ctx.strokeStyle = 'orange';
+         ctx.moveTo(286,169);
+         ctx.lineTo(305,183);
+         ctx.stroke();
+         
+            ctx.beginPath(); 
+         ctx.strokeStyle = 'turquoise';
+         ctx.moveTo(417,319);
+         ctx.lineTo(410,345);
+         ctx.stroke();
+         
+        
+            ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(410,345);
+         ctx.lineTo(398,366);
+         ctx.stroke();
+         
+         ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(410,345);
+         ctx.lineTo(412,370);
+         ctx.stroke();
+         
+         ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(410,345);
+         ctx.lineTo(427,360);
+         ctx.stroke();
+         
+         ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(446,324);
+         ctx.lineTo(441,346);
+         ctx.stroke();
+         
+         ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(441,346);
+         ctx.lineTo(431,368);
+         ctx.stroke();
+         
+            ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(441,346);
+         ctx.lineTo(445,372);
+         ctx.stroke();
+         
+            ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(441,346);
+         ctx.lineTo(462,363);
+         ctx.stroke();
+         
+            ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(350,113);
+         ctx.lineTo(335,93);
+         ctx.stroke();
+         
+            ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(335,93);
+         ctx.lineTo(355,105);
+         ctx.stroke();
+         
+            ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(355,105);
+         ctx.lineTo(378,85);
+         ctx.stroke();
+         
+            ctx.beginPath(); 
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(378,85);
+         ctx.lineTo(367,109);
+         ctx.stroke();
+         
+          var circle = new Path2D();
+         circle.arc(350, 160, 10, 0, 2 * Math.PI);
+         ctx.fill(circle);
+    
+        
+         ctx.beginPath();
+         ctx.strokeStyle = 'black';
+         ctx.moveTo(309, 159);
+         ctx.quadraticCurveTo(310, 120, 350, 112);
+         ctx.stroke();
+         
+         ctx.beginPath();
+         ctx.strokeStyle = 'green';
+         ctx.moveTo(306, 183);
+         ctx.quadraticCurveTo(310, 300, 447, 324);
+         ctx.stroke();
+         
+         ctx.beginPath();
+         ctx.strokeStyle = 'turquoise';
+         ctx.moveTo(306, 183);
+         ctx.quadraticCurveTo(310, 300, 447, 324);
+         ctx.stroke();
+         
+         ctx.beginPath();
+         ctx.strokeStyle = 'green';
+         ctx.moveTo(446, 324);
+         ctx.quadraticCurveTo(520, 305, 524, 260);
+         ctx.stroke();
+         
+         ctx.beginPath();
+         ctx.strokeStyle = 'yellow';
+         ctx.moveTo(366, 110);
+         ctx.quadraticCurveTo(410, 100, 490, 185);
+         ctx.stroke();
+         
+         ctx.beginPath();
+         ctx.strokeStyle = 'red';
+         ctx.moveTo(420, 160);
+         ctx.quadraticCurveTo(340, 270 ,574, 260);
+         ctx.stroke();
+         
+         ctx.beginPath();
+         ctx.strokeStyle = 'orange';
+         ctx.moveTo(420, 160);
+         ctx.quadraticCurveTo(440, 130, 501, 204);
+         ctx.stroke();
+         
+          ctx.beginPath(); 
+         ctx.strokeStyle = 'blue';
+         ctx.moveTo(501,204);
+         ctx.lineTo(574,260);
+         ctx.stroke();
+ 
+});
+      </script>  
+</body>
+</html>
+
+          
